@@ -39,6 +39,6 @@ str_decoded = SE.Decode(str_encoded).b64_dict(encode_keys=True)
 print(str_decoded) # {'hello_content': 'hello', 'username': 'world', 'use_important': 'True', 'important_suffix': '!'}
 ```
 
-#### Documentation for the library: in progress....
+#### Documentation for the library: [Libary wiki](https://github.com/SikWeet/SimpleEncode/wiki)
 
 ##the library will be constantly updated and will be better soon!
