@@ -5,9 +5,9 @@
 
 [Python](https://python.org) require 3.6+
 
-install SimpleEncoderr libary:
+install SimpleEncoder libary:
 ```sh
-pip install SimpleEncoderr
+pip install SimpleEncoder
 ```
 
 ## Examples
