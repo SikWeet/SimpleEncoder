@@ -1,19 +1,19 @@
-# SimpleEncode
+# SimpleEncoder
 [?] A simple library for encode, decode and hash data.
 
 ## Installation
 
 [Python](https://python.org) require 3.6+
 
-install SimpleEncode libary:
+install SimpleEncoderr libary:
 ```sh
-pip install SimpleEncode
+pip install SimpleEncoderr
 ```
 
 ## Examples
 ### Encode and decode string and dict:
 ```python
-from SimpleEncode import SimpleEncode as SE
+from SimpleEncoderr import SimpleEncoder as SE
 
 str_encoded = SE.Encode("hello world!").b64_str()
 print(str_encoded) # aGVsbG8gd29ybGQh
@@ -22,7 +22,7 @@ print(str_decoded) # hello world!
 ```
 example use b64_dict:
 ```python
-from SimpleEncode import SimpleEncode as SE
+from SimpleEncoder import SimpleEncoder as SE
 
 mydict = dict(hello_content="hello", username="world", use_important=True, important_suffix="!")
 
@@ -39,6 +39,6 @@ str_decoded = SE.Decode(str_encoded).b64_dict(encode_keys=True)
 print(str_decoded) # {'hello_content': 'hello', 'username': 'world', 'use_important': 'True', 'important_suffix': '!'}
 ```
 
-#### Documentation for the library: [Libary wiki](https://github.com/SikWeet/SimpleEncode/wiki)
+#### Documentation for the library: [GitHub WIKI](https://github.com/SikWeet/SimpleEncoder/wiki)
 
 ##the library will be constantly updated and will be better soon!
