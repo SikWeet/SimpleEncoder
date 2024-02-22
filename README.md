@@ -13,7 +13,7 @@ pip install SimpleEncoderr
 ## Examples
 ### Encode and decode string and dict:
 ```python
-from SimpleEncoderr import SimpleEncoder as SE
+from SimpleEncoder import SimpleEncoder as SE
 
 str_encoded = SE.Encode("hello world!").b64_str()
 print(str_encoded) # aGVsbG8gd29ybGQh
